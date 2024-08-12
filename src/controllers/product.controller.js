@@ -10,7 +10,8 @@ class ProductController{
 
 
         // console.log(path.resolve());
-        return res.sendFile(path.join(path.resolve(),"src",'views',"products.html" ));
+        // return res.sendFile(path.join(path.resolve(),"src",'views',"products.html" ));
+        res.render("products",{products:products});
     
     }
 }

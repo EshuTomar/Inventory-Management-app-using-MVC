@@ -11,7 +11,6 @@ class ProductModel{
     static get(){
         return products;
     }
-    
 }
 
 var products = [
